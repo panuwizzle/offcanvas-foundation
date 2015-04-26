@@ -1,0 +1,57 @@
+.left-off-canvas-toggle .menu {
+  float: left;
+  display: block;
+  margin: 3.5rem 2.5rem; }
+
+.hero {
+  background: url("http://static.pexels.com/wp-content/uploads/2015/02/breakfast-coffee-croissant-4279-825x550.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+  .hero img.logo {
+    float: right;
+    border-radius: 50%;
+    width: 10rem;
+    padding: 2rem; }
+
+.left-off-canvas-menu {
+  background: #fff; }
+  .left-off-canvas-menu img.logo {
+    display: block;
+    margin: 0 auto;
+    width: 10rem; }
+  .left-off-canvas-menu .categories, .left-off-canvas-menu .contact {
+    list-style-type: none; }
+    .left-off-canvas-menu .categories i, .left-off-canvas-menu .contact i {
+      margin: 0 1rem 0 -1rem; }
+
+.top-bar,
+.middle-bar,
+.bottom-bar {
+  display: block;
+  width: 40px;
+  height: 10px;
+  background-color: #333;
+  margin-bottom: 4px;
+  transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0; }
+
+.top-bar, .bottom-bar {
+  transform-origin: 100% 50%; }
+
+.middle-bar {
+  transition-property: opacity;
+  transition-duration: 0.6s; }
+
+.top-bar-close {
+  transform: rotate(-45deg);
+  background-color: #333; }
+
+.middle-bar-close {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s; }
+
+.bottom-bar-close {
+  transform: rotate(45deg);
+  background-color: #333; }
+
+/*# sourceMappingURL=off-canvas.css.map */
